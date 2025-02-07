@@ -10,7 +10,7 @@ public class GestionaTorneo {
 
 		Participante[] participantes = { p, p2, p3, p4 };
 
-		Partida partida1 = new Partida("Catán", p);
+		Partida partida1 = new Partida("Catán",);
 		
 		//Este es un ejemplo para el GitHub.
 	}

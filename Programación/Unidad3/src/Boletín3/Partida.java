@@ -25,7 +25,7 @@ public class Partida {
 	private int calculaJugadorGanado() {
 		int puntosGanador = 0;
 		for (Participante p : this.participantes) {
-			if (puntosGanador <  p.Puntuacion()) {
+			if (puntosGanador <  p.getPuntuacion()) {
 
 			}
 		}
