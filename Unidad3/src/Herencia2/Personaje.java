@@ -36,4 +36,16 @@ public class Personaje {
 				+ "]";
 	}
 
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (this == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Personaje other = (Personaje) obj;
+		return Object.equals(arma, other.arma) && puntosVidas == other.puntosVidas && nivel == other.nivel
+				&& Object.equals(nombre, other.nombre);
+	}
 }

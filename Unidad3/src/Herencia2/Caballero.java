@@ -2,13 +2,8 @@ package Herencia2;
 
 public class Caballero extends Personaje {
 
-	protected Caballero(String nombre, int nivel, int puntosVida, String arma) {
-		super(nombre, nivel, puntosVida, arma);
-	}
-
-	@Override
-	public String getArma() {
-		return "Caballero [getArma()=" + getArma() + "]";
+	protected Caballero(String nombre, int nivel, int puntosVida) {
+		super(nombre, nivel, puntosVida, "Espada");
 	}
 
 	public boolean esAtacado(Personaje atacante) {

@@ -2,13 +2,8 @@ package Herencia2;
 
 public class Mago extends Personaje {
 
-	protected Mago(String nombre, int nivel, int puntosVida, String arma) {
-		super(nombre, nivel, puntosVida, arma);
-	}
-
-	@Override
-	public String getArma() {
-		return "Mago [getArma()=" + getArma() + "]";
+	protected Mago(String nombre, int nivel, int puntosVida) {
+		super(nombre, nivel, puntosVida, "Hechizo");
 	}
 
 	public boolean esAtacado(Personaje atacante) {

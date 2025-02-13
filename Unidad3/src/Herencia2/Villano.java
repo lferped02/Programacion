@@ -1,8 +1,8 @@
 package Herencia2;
 
 public class Villano extends Personaje {
-	public Villano(String nombre, int nivel, int puntosVida, String arma) {
-		super(nombre, nivel, puntosVida, arma);
+	public Villano(String nombre, int nivel, int puntosVida) {
+		super(nombre, nivel, puntosVida, "");
 	}
 
 	@Override

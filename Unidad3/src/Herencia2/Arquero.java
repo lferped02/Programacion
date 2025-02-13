@@ -2,13 +2,8 @@ package Herencia2;
 
 public class Arquero extends Personaje {
 
-	protected Arquero(String nombre, int nivel, int puntosVida, String arma) {
-		super(nombre, nivel, puntosVida, arma);
-	}
-
-	@Override
-	public String getArma() {
-		return "Arquero [getArma()=" + getArma() + "]";
+	protected Arquero(String nombre, int nivel, int puntosVida) {
+		super(nombre, nivel, puntosVida, "Flecha);
 	}
 
 	public boolean esAtacado(Personaje atacante) {
