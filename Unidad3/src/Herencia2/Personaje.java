@@ -45,7 +45,7 @@ public class Personaje {
 		if (getClass() != obj.getClass())
 			return false;
 		Personaje other = (Personaje) obj;
-		return Object.equals(arma, other.arma) && puntosVidas == other.puntosVidas && nivel == other.nivel
-				&& Object.equals(nombre, other.nombre);
+		return Object.equals(arma) && puntosVida == other.puntosVida && nivel == other.nivel
+				&& Object.equals(nombre);
 	}
 }

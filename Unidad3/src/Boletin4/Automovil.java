@@ -1,9 +1,9 @@
 package Boletin4;
 
 public class Automovil {
-	public Automovil(String dueno, int numeroPuertas, int numeroRuedas) {
+	public Automovil(String dueno, int numeroPuertas, int numeroRuedas, CalificacionEco calificacionEcologica) {
 		super();
-		this.calificacionEcologica = null;
+		setCalificacionEcologica(calificacionEcologica);
 	}
 
 	private CalificacionEco calificacionEcologica = CalificacionEco.ECO;
@@ -12,28 +12,17 @@ public class Automovil {
 		ECO, O, B, C;
 	}
 
-	public String getDueno() {
-		return dueno;
+	public String CalificacionEco
+
+	getcalificacionEcologica() {
+		return calificacionEcologica;
 	}
 
-	public void setDueno(String dueno) {
-		this.dueno = dueno;
-	}
-
-	public int getNumeroPuertas() {
-		return numeroPuertas;
-	}
-
-	public void setNumeroPuertas(int numeroPuertas) {
-		this.numeroPuertas = numeroPuertas;
-	}
-
-	public int getNumeroRuedas() {
-		return numrtoRuedas;
-	}
-
-	public void setNumeroRuedas(int numeroRuedas) {
-		this.numrtoRuedas = numrtoRuedas;
-	}
-
+	public void setcalificacionEcologica(CalificacionEco getcalificacionEcologica) {
+		if (calificacionEcologica.equals(calificacionEco:ECO || calificacionEcologica.equals(calificacionEco:0))
+				||calificacionEcologica.equals(calificacionEco:B ||calificacionEcologica.equals(calificacionEco:C{
+			
+		
+			this.getcalificacionEcologica = getcalificacionEcologica;
+	 }
 }
