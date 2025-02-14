@@ -9,8 +9,8 @@ public class Conductor {
 	protected Conductor(String nombre, int anioExperiencia) {
 		super();
 		this.nombre = nombre;
-		//this.anioExperiencia = anioExperiencia;
-		setAnioExperiencia (anioExperiencia);
+		// this.anioExperiencia = anioExperiencia;
+		setAnioExperiencia(anioExperiencia);
 	}
 
 	public void conducir() {
@@ -32,11 +32,12 @@ public class Conductor {
 		} else {
 			this.anioExperiencia = 0;
 		}
+	}
+
+	protected void setnombre(String nombre) {
+		if (nombre.equals(nombre)) {
+
 		}
-		protected void setnombre(String nombre) {
-			if (nombre.equals(nombre)) {
-				
-			}
 	}
 
 	@Override
