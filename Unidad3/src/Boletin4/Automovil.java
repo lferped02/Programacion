@@ -1,17 +1,15 @@
 package Boletin4;
 
 public class Automovil {
-	private String dueno;
-	private int numeroPuertas;
-	private int numrtoRuedas;
-	private String calificacionEcologica;
-
-	public Automovil (String dueno, int numeroPuertas, int numrtoRuedas) {
+	public Automovil(String dueno, int numeroPuertas, int numeroRuedas) {
 		super();
-		this.dueno = dueno;
-		this.numeroPuertas = numeroPuertas;
-		this.numrtoRuedas = numrtoRuedas;
 		this.calificacionEcologica = null;
+	}
+
+	private CalificacionEco calificacionEcologica = CalificacionEco.ECO;
+
+	private enum CalificacionEco {
+		ECO, O, B, C;
 	}
 
 	public String getDueno() {
@@ -30,11 +28,11 @@ public class Automovil {
 		this.numeroPuertas = numeroPuertas;
 	}
 
-	public int getNumrtoRuedas() {
+	public int getNumeroRuedas() {
 		return numrtoRuedas;
 	}
 
-	public void setNumrtoRuedas(int numrtoRuedas) {
+	public void setNumeroRuedas(int numeroRuedas) {
 		this.numrtoRuedas = numrtoRuedas;
 	}
 
