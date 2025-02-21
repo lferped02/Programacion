@@ -1,0 +1,3 @@
+matches (regex String)                                             
+"1010" Que sean numeros, tiene que ser "0" y "1".   
+----------------------------------------------------
